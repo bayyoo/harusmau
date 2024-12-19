@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Will You Be My Girlfriend?</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="content">
+    <h1>Will You Be My Girlfriend?</h1>
+    <p>Please choose one:</p>
+    <button id="no" onclick="moveButton()">No</button>
+    <button id="yes" onclick="showImage()">Yes</button>
+    <div id="imageContainer">
+      <img src="image/happy.jpg" id="heartImage" alt="Heart" style="display:none;">
+    </div>
+    <audio id="audio" src="lagu/love.mp3"></audio>
+    <audio id="gameoverAudio" src="lagu/over.mp3"></audio>
+    <div id="timer">0</div>
+    <div id="imageBelowTimer">
+      <img src="image/menggoda.png" id="imageBelowTimerImage" alt="Image Below Timer">
+    </div>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
